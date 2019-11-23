@@ -1,0 +1,107 @@
+body {
+  background-color: #f7f7f7;
+  color: #40404d;
+  font-style: 14px, normal;
+  font-family: sans-serif;
+  color: 000;
+  text-decoration: none;
+}
+
+
+ /* link test*/
+.a {
+  text-decoration: none;
+}
+/*pseudo link*/
+a:link,
+a:visited {
+    color: #5b5b5b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+  color:hotpink;
+  text-decoration: none;
+}
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+title {
+  font-size:26px;
+  text-transform: none; /* Reads "Bloc Bulletin"*/
+}
+
+/* Reads "Bloc Links; Alumni, Courses, Contact"*/
+}
+nav {
+  background-color: ##9d9da0;
+  float: left;
+  position: fixed;
+  width: 100%;
+
+
+}
+
+/* Reads "Article Titlecase"*/
+h1 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/*An introduction to this topic*/
+h3 {
+  color: #3f3f3f;
+}
+
+/* This is the article as well as author*/
+article, .container {
+  color: #40404d;
+  font-style: normal;
+}
+
+
+/*The article itself*/
+article {
+  font-size: 15px;
+  line-height: 1.01em;
+  font-kerning: normal;
+  margin: 10px 0px -40px 30px;
+  padding: 50px 60px 10px 400px;
+}
+
+.logo {
+  margin: 60px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+
+}
+
+.container {
+  float: left;
+  width: 50%;
+}
